@@ -93,6 +93,7 @@
     <Compile Include="Assets\_Scripts\RecycleGameObject.cs" />
     <Compile Include="Assets\_Scripts\Spawner.cs" />
     <Compile Include="Assets\_Scripts\TiledBackground.cs" />
+    <Compile Include="Assets\_Scripts\TimeManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SpaceNavigator\Changelog.txt" />
