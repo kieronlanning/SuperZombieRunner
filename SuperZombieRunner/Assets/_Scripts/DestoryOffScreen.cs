@@ -3,8 +3,12 @@ using System.Collections;
 
 public class DestoryOffScreen : MonoBehaviour
 {
+    public delegate void OnDestroy();
+    
     // This is the default value for how far off the screen before the object gets destoryed.
     public float offset = 16f;
+    
+    public event OnDestroy DestroyCallback;
 
     bool _isOffscreen;
     float _offscreenX = 0f;
@@ -51,5 +55,8 @@ public class DestoryOffScreen : MonoBehaviour
         // This is for re-using objects later.
         _isOffscreen = false;
         GameObjectUtility.Destroy(gameObject);
+
+        if (DestroyCallback != null)
+            DestroyCallback();
     }
 }

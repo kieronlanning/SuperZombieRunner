@@ -79,9 +79,17 @@
     <Compile Include="Assets\SpaceNavigator\Runtime samples\- Follow curve\Scripts\Torus.cs" />
     <Compile Include="Assets\_Scripts\AnimatedTexture.cs" />
     <Compile Include="Assets\_Scripts\DestoryOffScreen.cs" />
+    <Compile Include="Assets\_Scripts\GameManager.cs" />
     <Compile Include="Assets\_Scripts\GameObjectUtility.cs" />
+    <Compile Include="Assets\_Scripts\IRecycle.cs" />
+    <Compile Include="Assets\_Scripts\InputState.cs" />
     <Compile Include="Assets\_Scripts\InstantVelocity.cs" />
+    <Compile Include="Assets\_Scripts\Jump.cs" />
+    <Compile Include="Assets\_Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\_Scripts\Obstacles.cs" />
     <Compile Include="Assets\_Scripts\PixelPerfectCamera.cs" />
+    <Compile Include="Assets\_Scripts\Player.cs" />
+    <Compile Include="Assets\_Scripts\PlayerAnimationManager.cs" />
     <Compile Include="Assets\_Scripts\RecycleGameObject.cs" />
     <Compile Include="Assets\_Scripts\Spawner.cs" />
     <Compile Include="Assets\_Scripts\TiledBackground.cs" />
